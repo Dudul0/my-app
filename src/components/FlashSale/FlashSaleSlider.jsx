@@ -1,7 +1,7 @@
 import { useSpringCarousel } from 'react-spring-carousel'
-import { Product } from './Product.jsx'
+import { Product } from './FlashSale.jsx'
 
-export default function ProductSlider() {
+export default function FlashSaleSlider() {
 
     const { carouselFragment } =  useSpringCarousel({
         itemsPerSlide: 2.3,

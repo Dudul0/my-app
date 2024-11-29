@@ -1,5 +1,5 @@
 import { useSpringCarousel } from 'react-spring-carousel'
-import { Banner } from './Banner/Banner.jsx'
+import { Banner } from './Banner.jsx'
 
 export default function BannerSlider() {
 

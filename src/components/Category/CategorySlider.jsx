@@ -4,7 +4,7 @@ import { Category } from './Category.jsx'
 export default function CategorySlider() {
 
     const { carouselFragment } =  useSpringCarousel({
-        itemsPerSlide: 4.5,
+        itemsPerSlide: 4.29,
         withLoop: false,
         items:[
             {
@@ -12,23 +12,23 @@ export default function CategorySlider() {
                 renderItem:<Category/>
             },
             {
-                id:'item2',
+                id:'item3',
                 renderItem:<Category/>
             },
             {
-                id:'item2',
+                id:'item4',
                 renderItem:<Category/>
             },
             {
-                id:'item2',
+                id:'item5',
                 renderItem:<Category/>
             },
             {
-                id:'item2',
+                id:'item6',
                 renderItem:<Category/>
             },
             {
-                id:'item2',
+                id:'item7',
                 renderItem:<Category/>
             }
 

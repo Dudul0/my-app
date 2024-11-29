@@ -6,8 +6,8 @@ import { GrNotification } from "react-icons/gr";
 export  function  Header() {
   return (
     <header className='py-4 '> 
-        <nav className='container flex gap-x-4 items-center border-b py-4 border-neutral-200 '>
-            <div className="border rounded-md text-xs flex gap-x-4 items-center pl-4 p-4 border-neutral-200 ">
+        <nav className='container flex gap-x-4 items-center border-b py-4 border-lightgray-100 '>
+            <div className="border rounded-md text-xs flex gap-x-4 items-center pl-4 p-4 border-lightgray-100 ">
                 <IconContext.Provider value={{ color: "#64cbff", size:'16px', className: "global-class-name" }}>
                     <FiSearch />
                 </IconContext.Provider> 
