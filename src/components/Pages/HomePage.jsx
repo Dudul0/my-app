@@ -7,13 +7,11 @@ import {CategoryWrapper} from '..//Category/CategoryWrapper.jsx'
 export default function HomePage() {
   return (
     <>
-        <Header/>
-        <main className='container font-poppins'>
+        <main className='container'>
           <BannerSlider />
           <CategoryWrapper />
           <FlashsaleWrappper />
         </main>
-        <Footer />    
     </>
   )
 }

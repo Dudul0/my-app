@@ -5,16 +5,16 @@ import { FaRegHeart } from "react-icons/fa6";
 import { GrNotification } from "react-icons/gr";
 export  function  Header() {
   return (
-    <header className='py-4 '> 
-        <nav className='container flex gap-x-4 items-center border-b py-4 border-lightgray-100 '>
-            <div className="border rounded-md text-xs flex gap-x-4 items-center pl-4 p-4 border-lightgray-100 ">
-                <IconContext.Provider value={{ color: "#64cbff", size:'16px', className: "global-class-name" }}>
+    <header className='pb-4 xl:hidden'> 
+        <nav className='container flex justify-between gap-x-4 items-center border-b  border-lightgray-100 py-4 '>
+            <div className="border rounded-md   border-lightgray-100 flex gap-x-4 items-center p-4 text-xs ">
+                <IconContext.Provider value={{ color: "#64cbff", className: "text-xs md:text-xl" }}>
                     <FiSearch />
                 </IconContext.Provider> 
-                <input type="text" placeholder='Search Product'  className="w-max"/>
+                <input type="text" placeholder='Search Product'  className="w-full md:px-16"/>
             </div>
             <div className="flex gap-x-4">
-                <IconContext.Provider value={{ color: "#9098b1", size:'24px', className: "global-class-name" }}>
+                <IconContext.Provider value={{ color: "#9098b1", className: "text-xs md:text-xl" }}>
                     <FaRegHeart />
                     <GrNotification />
                 </IconContext.Provider>  

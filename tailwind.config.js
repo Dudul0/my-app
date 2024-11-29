@@ -29,10 +29,11 @@ module.exports = {
         '2xl':'3rem'
       }
     },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+    },
     extend: {
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-      },
+
     },
   },
   plugins: [],

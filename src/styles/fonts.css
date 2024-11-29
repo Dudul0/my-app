@@ -12,4 +12,10 @@
     font-style: normal;
 }
 
-/* Добавьте другие веса и стили по мере необходимости */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+

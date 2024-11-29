@@ -3,7 +3,7 @@ import productIMaage from '../../images/discountCards/product1.png'
 
 export  function Product() {
   return ( 
-    <div className='rounded border   border-lightgray-100 py-4 px-4 flex  flex-wrap m-auto mr-1.5 mt-3.5' >
+    <div className='rounded border border-lightgray-100 py-4 px-4 flex justify-center text-center flex-wrap m-auto mr-1.5 mt-3.5 select-none' >
       <img src={productIMaage}  alt="Description of the product"/>
 
       <span className='w-full text-xs font-bold my-3'>FS - Nike Air Max 270 React...</span>
