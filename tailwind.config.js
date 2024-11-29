@@ -31,7 +31,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'], // Добавляем кастомный шрифт
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },
