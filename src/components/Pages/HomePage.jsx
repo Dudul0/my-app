@@ -1,9 +1,10 @@
 import React from 'react'
-import { Footer }  from '../Layouts/Footer.jsx'
-import { Header } from '../Layouts/Header.jsx'
 import { FlashsaleWrappper } from '..//FlashSale/FlashsaleWrappper.jsx'
-import  BannerSlider  from '..//OfferBanners/OfferBannerSlider.jsx'
+import  BannerSlider  from '../OfferBanners/OfferBannerSlider.jsx'
 import {CategoryWrapper} from '..//Category/CategoryWrapper.jsx'
+import { MegaSaleWrappper } from '../MegaSale/MegaSaleWrappper.jsx'
+import OfferBannerSlider from '../RecomendedProduct/BannerSlider.jsx'
+import { ProductWrapper } from '../ProductList/ProductWrapper.jsx'
 export default function HomePage() {
   return (
     <>
@@ -11,6 +12,9 @@ export default function HomePage() {
           <BannerSlider />
           <CategoryWrapper />
           <FlashsaleWrappper />
+          <MegaSaleWrappper />
+          <OfferBannerSlider />
+          <ProductWrapper />
         </main>
     </>
   )
