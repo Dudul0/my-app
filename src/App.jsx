@@ -3,7 +3,7 @@ import { Header } from './components/Layouts/Header.jsx'
 import HomePage from './components/Pages/HomePage.jsx'
 import ProductList from './components/Pages/ProductList.jsx'
 import { Footer } from './components/Layouts/Footer.jsx'
-
+import SuperFlashSale from './components/Pages/SuperFlashSale.jsx'
 import {
   createBrowserRouter,
   Outlet,
@@ -29,7 +29,10 @@ const router  = createBrowserRouter([
         path:'/productList',
         element: <ProductList />,
       },
-    ]
+      {
+        path:'/superFashSale',
+        element: <SuperFlashSale />,
+      },    ]
   }
 ])
 

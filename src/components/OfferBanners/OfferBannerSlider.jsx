@@ -1,5 +1,6 @@
 import { useSpringCarousel } from 'react-spring-carousel'
 import { Banner } from './Banner.jsx'
+import Timer from '../Timer/Timer.js'
 
 export default function BannerSlider() {
 
@@ -8,11 +9,11 @@ export default function BannerSlider() {
         items:[
             {
                 id:'item1',
-                renderItem:<Banner/>
+                renderItem:<Banner time={Timer(`December, ${new Date().getDate() + 1}, 2024`)}/>
             },
             {
                 id:'item2',
-                renderItem:<Banner/>
+                renderItem:<Banner time={Timer(`December, ${new Date().getDate() + 1}, 2024`)}/>
             }
         ]
         
